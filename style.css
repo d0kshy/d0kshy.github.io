@@ -1,0 +1,9 @@
+body {
+    /* */ 
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: rgb(5, 13, 23);
+}
+.my-photo {
+    width: 20%;
+}

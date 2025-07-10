@@ -1,9 +1,27 @@
 body {
     /* */ 
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
-    background-color: rgb(5, 13, 23);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    background-color: rgb(255, 255, 255);
 }
+#logo {
+    font-size: 28px;
+    font-weight: 100;
+}
+
+main {
+    font-family: 'Karla', sans-serif;
+    font-weight: 100;
+}
+.bio-header {
+    font-weight: 350;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+}
+
 .my-photo {
     width: 20%;
 }

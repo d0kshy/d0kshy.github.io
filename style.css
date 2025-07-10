@@ -8,6 +8,13 @@ body {
     font-size: 28px;
     font-weight: 100;
 }
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type:none;
+}
 
 main {
     font-family: 'Karla', sans-serif;

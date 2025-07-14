@@ -15,7 +15,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1rem 1rem;
+    padding: 1rem 1rem 2.5rem 1rem;
   }
 
 #logo {
@@ -61,7 +61,7 @@ a:visited {
 
 a:hover {
     color:burlywood;
-    transition-duration: 0.7s;
+    transition-duration: 0.5s;
 }
 
 
@@ -72,7 +72,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     gap: 30px;
-    padding: 0px;
+    padding: 0;
     margin: 0;
     list-style: none;
     justify-content: center;
@@ -96,10 +96,12 @@ main {
 }
 
 .my-photo {
-    width: 2500px;
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
+    width: 350px;
+    /*
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+    */
 }
 
 .bio-section {
@@ -107,10 +109,11 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 80px 300px 0px 300px;
+    margin: 2.5rem 300px 0px 300px;
 }
 .bio-text {
     text-align: justify;
+    margin-top: -25px;
     margin-left: 30px;
 }
 
@@ -121,4 +124,107 @@ main {
 h2 {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 100;
+}
+
+/* --------------------------- LANGUAGES --------------------------- */
+.ling-languages {
+margin-left: 30px;
+}
+
+.language {
+    margin-bottom: 10px;
+    font-family: 'Karla', sans-serif;
+  }
+  
+  .language-label {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+    display: inline-block;
+  }
+  
+  .progress-bar {
+    width: 100px;
+    max-width: 400px;
+    height: 7px;
+    background-color: #e0e0e0;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .progress-fill {
+    height: 100%;
+    background-color: burlywood;
+    width: 0%;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes crawl {
+    from {
+      width: 0%;
+    }
+  }
+  
+  .level-a1 {
+    animation-name: crawl-a1;
+  }
+  @keyframes crawl-a1 {
+    to {
+      width: 10%;
+    }
+  }
+  
+  .level-a2 {
+    animation-name: crawl-a2;
+  }
+  @keyframes crawl-a2 {
+    to {
+      width: 25%;
+    }
+  }
+  
+  .level-b1 {
+    animation-name: crawl-b1;
+  }
+  @keyframes crawl-b1 {
+    to {
+      width: 45%;
+    }
+  }
+  
+  .level-b2 {
+    animation-name: crawl-b2;
+  }
+  @keyframes crawl-b2 {
+    to {
+      width: 65%;
+    }
+  }
+  
+  .level-c1 {
+    animation-name: crawl-c1;
+  }
+  @keyframes crawl-c1 {
+    to {
+      width: 85%;
+    }
+  }
+  
+  .level-c2 {
+    animation-name: crawl-c2;
+  }
+  @keyframes crawl-c2 {
+    to {
+      width: 100%;
+    }
+  }
+  
+
+/* --------------------------- PROJECTS --------------------------- */
+.project-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

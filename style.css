@@ -11,7 +11,7 @@ nav {
     position: relative;
   }
   
-  .nav {
+.nav {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,6 +64,27 @@ a:hover {
 }
 
 
+
+/* --------------------------- MAIN --------------------------- */
+
+.sm-section ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 10px 0px;
+    margin: 0;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.sm-section img {
+    opacity: 60%;
+    width: 24px; /* or whatever size you want */
+    height: 24px;
+    object-fit: contain;
+}
+
 main {
     font-family: 'Karla', sans-serif;
     font-weight: 100;
@@ -77,15 +98,17 @@ main {
 }
 
 .bio-section {
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 40px 70px 0px 20px;
+    margin: 0px 300px 0px 300px;
 }
 .bio-text {
+    text-align: justify;
     margin-left: 30px;
 }
+
 
 .bio-header {
     font-weight: 350;

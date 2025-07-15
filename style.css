@@ -96,12 +96,12 @@ main {
 }
 
 .my-photo {
-    width: 350px;
-    /*
-        max-width: 100%;
-        height: auto;
-        object-fit: cover;
-    */
+    width: 3500px;
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    object-fit: cover;
+   
 }
 
 .bio-section {
@@ -227,4 +227,13 @@ margin-left: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 100px;
+}
+
+.sproject {
+    width: 100px;
+}
+
+.bproject {
+    width: 100px;
 }

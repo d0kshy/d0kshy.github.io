@@ -7,6 +7,24 @@ body {
   font-family: 'Pixelify Sans';
 }
 
+/* STAR BACKGROUND */
+
+.sky {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+}
+
+.star {
+  position: absolute;
+  background: #fff;
+  border-radius: 0;
+  opacity: 1;
+  animation: twinkle linear infinite;
+}
+
+/* - - - - - - - - */
+
 li {
   list-style-type: none;
 }

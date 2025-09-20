@@ -1,0 +1,43 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: #000;
+  overflow: hidden;
+  font-family: 'Pixelify Sans';
+}
+
+li {
+  list-style-type: none;
+}
+
+#main-greeting {
+  font-size: 80px;
+  font-weight: bold;
+  color: white;
+}
+
+#main-bio {
+  font-family: 'Play';
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+#nav {
+  font-size: 24px;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  text-shadow: white 0px 0px 20px;
+}

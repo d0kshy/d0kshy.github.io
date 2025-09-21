@@ -21,18 +21,65 @@ a:hover {
   text-shadow: white 0px 0px 20px;
 }
 
+
+.tech-proj {
+  height: 1240px;
+  padding-top: 140px;
+}
+
+
+/* TYPING EFFECT */
+
 #main-greeting {
   font-size: 80px;
   font-weight: bold;
   color: white;
+  overflow: hidden;
+  white-space: nowrap;
+
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
 }
 
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
+}
+
+/* - - - - - - - - */
+
+
+/* FLOATING EFFECT */
 #main-bio {
   font-family: 'Play';
   font-size: 18px;
   font-weight: bold;
   color: white;
+  border-radius: 50%;
+  position: relative;
+  animation: float 1s ease-in;
 }
+
+@keyframes float {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+
+}
+
+/* - - - - - - - - */
+
 
 #nav {
   list-style-type: none;

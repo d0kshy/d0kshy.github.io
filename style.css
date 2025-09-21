@@ -2,9 +2,14 @@ html,
 body {
   height: 100%;
   margin: 0;
-  background: #000;
+  background: #0e0e0e;
   overflow: hidden;
   font-family: 'Pixelify Sans';
+}
+
+main {
+  display: flex;
+  flex-direction: row;
 }
 
 
@@ -18,9 +23,25 @@ a:visited {
 }
 
 a:hover {
-  text-shadow: white 0px 0px 20px;
+  text-shadow: white 0px 0px 10px;
 }
 
+#nav-block {
+  list-style-type: none;
+  font-size: 22px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin: 35px 0 100px 80px;
+  gap: 150px;
+}
+
+
+.home {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 0 130px;
+}
 
 
 /* TYPING EFFECT */
@@ -33,7 +54,7 @@ a:hover {
   white-space: nowrap;
 
   animation:
-    typing 3.5s steps(40, end),
+    typing 2.5s steps(40, end),
     blink-caret .75s step-end infinite;
 }
 
@@ -51,14 +72,16 @@ a:hover {
 
 
 /* FLOATING EFFECT */
+
 #main-bio {
   font-family: 'Play';
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   color: white;
   border-radius: 50%;
   position: relative;
   animation: float 1s ease-in;
+  margin: -50px 0 0 7px;
 }
 
 @keyframes float {
@@ -76,16 +99,17 @@ a:hover {
 /* - - - - - - - - */
 
 
-#nav {
-  list-style-type: none;
-  font-size: 24px;
-  color: white;
-}
-
 #tech-text {
   font-family: 'Play';
   font-size: 18px;
   color: white;
+}
+
+
+#my-photo {
+  width: 60%;
+  border-radius: 50%;
+  margin: -10px 0 0 55px;
 }
 
 
@@ -104,5 +128,7 @@ a:hover {
   opacity: 1;
   animation: twinkle linear infinite;
 }
+
+
 
 /* - - - - - - - - */

@@ -3,8 +3,30 @@ body {
   height: 100%;
   margin: 0;
   background: #000000;
-  overflow: hidden;
+  /*overflow: hidden; */
   font-family: 'Pixelify Sans';
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
+}
+
+@keyframes float {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+
 }
 
 main {
@@ -44,9 +66,6 @@ a:hover {
   margin: 0 0 0 130px;
 }
 
-
-/* TYPING EFFECT */
-
 #main-greeting {
   font-size: 80px;
   font-weight: bold;
@@ -66,23 +85,9 @@ a:hover {
   margin: 180px 0 0 525px;
 }
 
-@keyframes typing {
-  from {
-    width: 0
-  }
-
-  to {
-    width: 100%
-  }
-}
-
-/* - - - - - - - - */
-
 .welcome {
   display: flex;
 }
-
-/* FLOATING EFFECT */
 
 #main-bio {
   font-family: 'Play';
@@ -95,19 +100,47 @@ a:hover {
   margin: -50px 0 0 7px;
 }
 
-@keyframes float {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
 
-  100% {
-    transform: translateY(0px);
-  }
+
+/*  - - - - - - - - - PROJECT SEECTION  - - - - - - - - - */
+#projects-header {
+  font-size: 55px;
+  font-weight: bold;
+  color: white;
+  overflow: hidden;
+  white-space: nowrap;
+  /* animation: float 4s ease; */
+}
+
+.projects-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  margin-top: 80px;
 
 }
 
-/* - - - - - - - - */
+#projects-bio {
+  color: white;
+  text-align: center;
+  margin: -10px 0 0 0;
+}
+
+.card {
+  width: 300px;
+  font-family: 'Play';
+  font-size: 14px;
+  border: rgba(255, 255, 255, 0) solid 1px;
+  border-radius: 3%;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 1);
+  padding: 0px 25px;
+  margin: 10px;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
 
 
 /* STAR BACKGROUND */

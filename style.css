@@ -35,16 +35,16 @@ main {
 }
 
 
-a {
+.nav-item {
   color: white;
   text-decoration: none;
 }
 
-a:visited {
+.nav-item:visited {
   color: rgb(255, 255, 255);
 }
 
-a:hover {
+.nav-item:hover {
   text-shadow: white 0px 0px 10px;
 }
 
@@ -129,27 +129,35 @@ a:hover {
 
 .project-cards {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, max-content);
   gap: 20px;
-  max-width: 800px;
-  margin: 35px auto;
+  justify-content: center;
+  margin: 35px 0;
 }
 
 .card {
-  width: 300px;
+  width: 500px;
   font-family: 'Play';
   font-size: 14px;
-  border: rgba(255, 255, 255, 0) solid 1px;
   background-color: rgba(255, 255, 255, 0.15);
   color: rgba(255, 255, 255, 1);
   border-radius: 12px;
   text-align: left;
   padding: 0 15px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid transparent;
+  box-sizing: border-box;
+}
+
+.card:hover {
+  transition: 0.7s;
+  border-color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(255, 255, 255, 0.18);
 }
 
 img {
-  height: 20%
+  width: 100%;
+  margin-bottom: 15px;
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */

@@ -102,7 +102,7 @@ main {
 
 
 
-/*  - - - - - - - - - PROJECT SEECTION  - - - - - - - - - */
+/*  - - - - - - - - - PROJECT SECTION  - - - - - - - - - */
 #projects-header {
   font-size: 55px;
   font-weight: bold;
@@ -140,7 +140,7 @@ main {
   font-family: 'Play';
   font-size: 14px;
   background-color: rgba(255, 255, 255, 0.15);
-  color: rgba(255, 255, 255, 1);
+  color: rgb(255, 255, 255);
   border-radius: 12px;
   text-align: left;
   padding: 0 15px;
@@ -150,18 +150,66 @@ main {
 }
 
 .card:hover {
+  text-decoration: none;
   transition: 0.7s;
   border-color: rgba(255, 255, 255, 0.25);
   background-color: rgba(255, 255, 255, 0.18);
 }
 
+.card-info {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+}
+
 img {
   width: 100%;
   margin-bottom: 15px;
+  border: solid rgba(255, 255, 255, 0.3) 1px;
+
+}
+
+img:hover {
+  border-color: rgba(255, 255, 255, 0.25);
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
+
+/*  - - - - - - - - - CONTACT SECTION  - - - - - - - - - */
+
+#contact-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  color: white;
+}
+
+.form-header {
+  font-size: 55px;
+  font-weight: bold;
+  color: white;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  font-family: 'Play';
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: rgb(255, 255, 255);
+  border-radius: 12px;
+  text-align: left;
+  padding: 0 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid transparent;
+  box-sizing: border-box;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 
 /* STAR BACKGROUND */

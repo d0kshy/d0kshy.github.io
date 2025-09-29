@@ -177,12 +177,24 @@ img:hover {
 
 /*  - - - - - - - - - CONTACT SECTION  - - - - - - - - - */
 
+
+#contact-section {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
 #contact-block {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-items: center;
   color: white;
+}
+
+#side-contact {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
 }
 
 .form-header {
@@ -208,6 +220,23 @@ img:hover {
   border: 1px solid transparent;
   box-sizing: border-box;
 }
+
+#side-text {
+  font-family: 'Play';
+  font-size: 24px;
+}
+
+.side-logos {
+  font-family: 'Play';
+  font-size: 14px;
+
+}
+
+.logos {
+
+  height: 10%;
+}
+
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 

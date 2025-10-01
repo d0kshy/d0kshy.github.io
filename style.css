@@ -103,6 +103,7 @@ main {
 
 
 /*  - - - - - - - - - PROJECT SECTION  - - - - - - - - - */
+
 #projects-header {
   font-size: 55px;
   font-weight: bold;
@@ -130,7 +131,7 @@ main {
 .project-cards {
   display: grid;
   grid-template-columns: repeat(2, max-content);
-  gap: 20px;
+  gap: 30px;
   justify-content: center;
   margin: 35px 0;
 }
@@ -161,7 +162,7 @@ main {
   text-decoration: none;
 }
 
-img {
+.card-pic {
   width: 100%;
   margin-bottom: 15px;
   border: solid rgba(255, 255, 255, 0.3) 1px;
@@ -180,27 +181,37 @@ img:hover {
 
 #contact-section {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   color: white;
+  margin: 100px 0;
 }
 
 #contact-block {
+  margin: -20px 0 125px 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  align-items: flex-start;
   justify-items: center;
-  color: white;
+  padding: 15px;
+  width: 720px;
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  border-radius: 12px;
 }
 
-#side-contact {
-  background-color: rgba(255, 255, 255, 0.15);
-  border-radius: 12px;
+#contact-block:hover {
+  text-decoration: none;
+  transition: 0.7s;
+  border-color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(255, 255, 255, 0.18);
 }
 
 .form-header {
   font-size: 55px;
   font-weight: bold;
-  color: white;
   overflow: hidden;
   white-space: nowrap;
 }
@@ -208,33 +219,58 @@ img:hover {
 .contact-form {
   display: flex;
   flex-direction: column;
-  width: 300px;
   font-family: 'Play';
   font-size: 14px;
-  background-color: rgba(255, 255, 255, 0.15);
-  color: rgb(255, 255, 255);
-  border-radius: 12px;
   text-align: left;
-  padding: 0 15px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border: 1px solid transparent;
-  box-sizing: border-box;
+  padding-right: 25px;
+}
+
+input {
+  font-size: 20px;
+  font-family: 'Pixelify Sans';
+  margin-top: 10px;
+  padding: 10px 15px;
+  color: #ffffff;
+  background-color: black;
+  border: 0;
+}
+
+textarea {
+  resize: none;
+  font-size: 20px;
+  font-family: 'Pixelify Sans';
+  margin-top: 10px;
+  padding: 10px 15px;
+  color: white;
+  background-color: black;
+  border: 0;
+}
+
+#submit {
+  border: solid rgba(255, 255, 255, 0.3) 2px;
+}
+
+#submit:hover {
+  border-color: rgba(255, 255, 255, 0.5);
 }
 
 #side-text {
-  font-family: 'Play';
   font-size: 24px;
 }
 
-.side-logos {
+.contact-info {
   font-family: 'Play';
-  font-size: 14px;
+  margin-bottom: 50px;
+}
 
+.logos-block {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
 }
 
 .logos {
-
-  height: 10%;
+  width: 50%;
 }
 
 

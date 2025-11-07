@@ -59,11 +59,20 @@ main {
   gap: 350px;
 }
 
+#gif {
+  margin-left: 30px;
+}
 
 .home {
   display: flex;
   flex-direction: row;
-  margin: 0 0 0 130px;
+  margin: 0 0 110px 220px;
+}
+
+
+.greeting-prt1 {
+  display: flex;
+  flex-direction: row;
 }
 
 #main-greeting {
@@ -82,7 +91,7 @@ main {
   display: flexbox;
   font-size: 24px;
   color: white;
-  margin: 180px 0 0 525px;
+  margin: 180px 0 0 435px;
 }
 
 .welcome {
@@ -105,9 +114,11 @@ main {
 /*  - - - - - - - - - PROJECT SECTION  - - - - - - - - - */
 
 #projects-header {
-  font-size: 55px;
+  font-family: 'Pixelify Sans';
+  font-size: 45px;
   font-weight: bold;
   color: white;
+  text-align: center;
   overflow: hidden;
   white-space: nowrap;
   /* animation: float 4s ease; */
@@ -123,9 +134,10 @@ main {
 }
 
 #projects-bio {
+  font-family: 'Play';
   color: white;
-  text-align: center;
-  margin: -10px 0 20px 0;
+  text-align: left;
+  margin: -15px 10px 40px 10px;
 }
 
 .project-cards {
@@ -133,7 +145,21 @@ main {
   grid-template-columns: repeat(2, max-content);
   gap: 30px;
   justify-content: center;
-  margin: 35px 0;
+  margin: 35px 0px;
+}
+
+.project-bio-card {
+  width: 1200px;
+  font-family: 'Play';
+  font-size: 24px;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: rgb(255, 255, 255);
+  border-radius: 12px;
+  text-align: left;
+  padding: 0 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid transparent;
+  box-sizing: border-box;
 }
 
 .card {
@@ -166,7 +192,6 @@ main {
   width: 100%;
   margin-bottom: 15px;
   border: solid rgba(255, 255, 255, 0.3) 1px;
-
 }
 
 img:hover {

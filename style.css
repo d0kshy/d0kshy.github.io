@@ -149,6 +149,7 @@ main {
 }
 
 .project-bio-card {
+  margin-bottom: 100px;
   width: 1200px;
   font-family: 'Play';
   font-size: 24px;
@@ -164,7 +165,8 @@ main {
 
 .card {
   width: 500px;
-  font-family: 'Play';
+  height: 400px;
+  font-family: 'Pixelify Sans';
   font-size: 14px;
   background-color: rgba(255, 255, 255, 0.15);
   color: rgb(255, 255, 255);
@@ -198,13 +200,27 @@ img:hover {
   border-color: rgba(255, 255, 255, 0.25);
 }
 
+.project-type {
+  color: rgb(139, 0, 198);
+  margin-left: 55px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Play';
+}
+
+#coming-soon {
+  font-size: 20px;
+  font-weight: 900;
+  color: red;
+}
+
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 
 /*  - - - - - - - - - CONTACT SECTION  - - - - - - - - - */
 
 
-#contact-section {
+/* #contact-section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -296,16 +312,10 @@ textarea {
 
 .logos {
   width: 50%;
-}
+} */
 
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-
-/* RESPONSIVE DESIGN */
-@media screen {}
-
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-
 
 /* STAR BACKGROUND */
 

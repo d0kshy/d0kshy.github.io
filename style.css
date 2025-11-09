@@ -414,46 +414,44 @@ img:hover {
 
 @media (max-width: 480px) {
   body {
-    transform: scale(0.5);
+    transform: scale(0.7);
     transform-origin: top center;
-    overflow-x: hidden;
   }
 
   #nav-block {
-    gap: 60px;
-    font-size: 14px;
-    margin: 25px 0 50px 0;
+    gap: 120px;
+    font-size: 16px;
+    margin: 30px 0 60px 0;
   }
 
   #gif {
-    height: 100px;
-    margin-left: 10px;
+    height: 150px;
   }
 
   .home {
-    margin: 0 0 40px 50px;
+    margin: 0 0 60px 100px;
   }
 
   #main-greeting {
-    font-size: 30px;
+    font-size: 45px;
   }
 
   #welcome-text {
-    font-size: 12px;
-    margin: 70px 0 0 120px;
+    font-size: 16px;
+    margin: 100px 0 0 200px;
   }
 
   #main-bio {
-    font-size: 10px;
-    margin: -15px 0 0 7px;
+    font-size: 12px;
+    margin: -25px 0 0 7px;
   }
 
   .card {
-    width: 250px;
-    height: 200px;
+    width: 350px;
+    height: 280px;
   }
 
   .project-bio-card {
-    width: 500px;
+    width: 700px;
   }
 }

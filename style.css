@@ -60,6 +60,7 @@ main {
 }
 
 #gif {
+  height: 300px;
   margin-left: 30px;
 }
 
@@ -369,35 +370,35 @@ img:hover {
 
 @media (max-width: 480px) {
 
-  /* NAVIGATION BAR */
+  /* - - - NAVIGATION BAR - - - */
   #nav-block {
     font-size: 18px;
-    margin: 22px 0 60px 0;
+    margin: 18px 0 60px 0;
     gap: 50px;
   }
 
   #gif {
+    height: 20px;
     margin-left: 15px;
   }
 
   .home {
-    margin: 0 0 55px 110px;
+    margin: 0 0 25px 25px;
   }
 
   #main-greeting {
-    font-size: 40px;
+    font-size: 25px;
   }
 
   #welcome-text {
     font-size: 12px;
-    margin: 90px 0 0 217px;
+    margin: 90px 0 0 100px;
   }
 
   #main-bio {
     font-size: 8px;
-    border-radius: 50%;
     margin: -25px 0 0 3px;
   }
 
-  /* */
+  /* - - - - - - - - - - */
 }

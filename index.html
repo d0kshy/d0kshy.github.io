@@ -4,24 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Play:wght@400;700&display=swap"
         rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="/imgs/icon.ico">
     <link rel="stylesheet" href="./style.css">
-    <title>DARIA KURNOSOVA</title>
+    <title>DARIA KURNOSOVA | SOC Analyst</title>
 </head>
 
 <body>
 
     <nav>
         <ul id="nav-block">
-            <li><a href="#nav-block" class="nav-item">Home</a></li>
-            <li><a href="#project-section" class="nav-item">Projects</a></li>
-            <li><a href=".contact" class="nav-item">Contact</a></li>
+            <li><a href="#" class="nav-item">Home</a></li>
+            <li><a href="#project-section" class="nav-item">Lab & Skills</a></li>
+            <li><a href="#contact" class="nav-item">Contact</a></li>
         </ul>
     </nav>
 
@@ -29,17 +27,25 @@
         <div id="main-block">
             <div class="home">
                 <div class="greeting">
-                    <div class="greeting-prt1">
+
+                    <div class="text-side">
                         <h1 id="main-greeting">HI! MY NAME IS <br>DARIA KURNOSOVA.</h1>
-                        <img src="./imgs/profile.gif" id="gif" alt="Profile animation">
+
+                        <p id="main-bio">
+                            I am a 19 y.o. student at the Cracow University of Technology.
+                            <br>A <b>Cybersecurity Enthusiast</b> and future <b>SOC Analyst</b>.
+                            I develop tools for threat analysis and defense automation.
+                        </p>
+
+                        <div class="log">
+                            <p id="log-text">
+                                <span id="time-log"></span>
+                                <span id="info-tag">&lt;INFO&gt;</span>
+                                <span id="status-msg"> Student.State: Ready.</span>
+                            </p>
+                        </div>
                     </div>
-                    <p id="main-bio">
-                        I am Ukrainian 19 y. o. student at the Cracow University of Technology,<br>
-                        mastering Full-Stack & Game Development.
-                    </p>
-                    <div class="welcome">
-                        <p id="welcome-text">&lt; Welcome &gt;</p>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -49,59 +55,126 @@
         <div class="project-block">
             <div class="projects">
                 <div class="projects-desc">
+
                     <div class="project-bio-card">
-                        <h1 id="projects-bio-header">What do I do?</h1>
+                        <h1 id="projects-bio-header">Technical Arsenal</h1>
                         <p id="projects-bio">
-                            💻 I’m a creative front-end developer and designer, passionate about creating beautiful and
-                            functional
-                            digital worlds.
-                            I know <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, and <b>TypeScript</b>, and I’m currently
-                            diving deeper
-                            into <b>Angular</b> and <b>React</b>.
-                            <br><br>
-                            🎨 I design and build modern, user-friendly interfaces using <b>Figma</b> and
-                            <b>Photoshop</b>, blending
-                            creativity with clean code to bring ideas to life.
-                            <br><br>
-                            👾 I’m also developing my own HD-2D game with <b>Unreal Engine</b> using <b>Blueprints</b>,
-                            combining
-                            storytelling, atmosphere, and visual magic.
-                            <br><br>
-                            🎲 Beyond that, I enjoy 3D modeling in <b>Blender</b>, 2D animation, and creating original
-                            art assets —
-                            crafting every detail to make projects truly unique.
-                            <br><br>
-                            🌎 Languages I speak and learn:
+                            A future <b>SOC Analyst</b> who combines security operations with a developer's perspective.
+                            <br>I provide technologies for threat analysis and defensive automation.
                         </p>
+
+                        <div class="skills-grid">
+                            <div class="skill-category">
+                                <h3>OS & Infrastructure</h3>
+                                <ul>
+                                    <li>Linux (Kali, Ubuntu)</li>
+                                    <li>Windows Server</li>
+                                    <li>Oracle VirtualBox</li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h3>Security Operations</h3>
+                                <ul>
+                                    <li>Wireshark, TCP/IP, OSI Model</li>
+                                    <li>Nmap, Hydra</li>
+                                    <li>Wazuh, Splunk</li>
+                                    <li>MITRE ATT&CK, Cyber Kill Chain</li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h3>Automation & Development</h3>
+                                <ul>
+                                    <li>Python</li>
+                                    <li>Bash</li>
+                                    <li> C++</li>
+                                    <li>Web & Database (SQL, JS/TS, HTML, CSS)</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <p class="lang-header">Languages:</p>
                         <ul class="lang-list">
-                            <li>English</li>
-                            <li>Polish</li>
-                            <li>Ukrainian</li>
-                            <li>Russian</li>
-                            <li>Spanish</li>
-                            <li>Islenska</li>
+                            <li>English <span class="lang-level">(B2)</span></li>
+                            <li>Polish <span class="lang-level">(B2)</span></li>
+                            <li>Ukrainian <span class="lang-level">(C2)</span></li>
+                            <li>Spanish <span class="lang-level">(A1)</span></li>
                         </ul>
                     </div>
 
-                    <h1 id="projects-header">What am I working on rn?</h1>
+                    <h1 id="projects-header">Home Labs & Analysis</h1>
                     <div class="project-cards">
+
                         <div class="card">
                             <a href="#" class="card-info">
                                 <h2>
-                                    Secrets of the Bering Strait
-                                    <img src="./imgs/pixel-star.png" width="15" alt="star">
-                                    <span class="project-type">Game Dev</span>
+                                    SOC Home Lab Wazuh
+                                    <span class="project-type">SIEM / EDR</span>
                                 </h2>
-                                <p>It is a narrative HD-2D RPG with life simulation and anthropology
-                                    elements in a pixel art style. <br>
-                                    <span id="coming-soon">COMING SOON!</span>
+                                <p>Deployed Wazuh Manager to monitor Windows endpoints. Executed Red Team attacks (Nmap,
+                                    Hydra) to validate detection rules and analyzed log patterns in the dashboard.</p>
+                            </a>
+                        </div>
+
+                        <div class="card">
+                            <a href="#" class="card-info">
+                                <h2>
+                                    File Integrity Monitor
+                                    <span class="project-type">Python Security Tool</span>
+                                </h2>
+                                <p>Developed a real-time monitoring tool using SHA-256 hashing. It creates a secure
+                                    baseline to detect unauthorized file creation, modification, or deletion instantly.
                                 </p>
                             </a>
                         </div>
+
+                        <div class="card">
+                            <a href="#" class="card-info">
+                                <h2>
+                                    Automated Threat Intel
+                                    <span class="project-type">SOAR / Automation</span>
+                                </h2>
+                                <p>Built a log parser in Python that extracts suspicious IPs using Regex. Integrated the
+                                    VirusTotal API to automatically enrich data and generate reputation reports.</p>
+                            </a>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-block">
+            <h1 id="contact-header">LET'S CONNECT!</h1>
+
+            <div class="terminal-output">
+                <p class="comment"># Contact Information</p>
+
+                <div class="cmd-line">
+                    <span class="prompt">user@soc:~$</span>
+                    <span class="cmd">echo $EMAIL</span>
+                </div>
+                <p class="result"><a href="mailto:dariakurnosova.contact@gmail.com">dariakurnosova.contact@gmail.com</a>
+                </p>
+
+                <div class="cmd-line">
+                    <span class="prompt">user@soc:~$</span>
+                    <span class="cmd">curl linkedin.com/in/daria</span>
+                </div>
+                <p class="result"><a href="https://www.linkedin.com/in/daria-kurnosova-b95b17342/"
+                        target="_blank">linkedin.com/in/daria-kurnosova</a></p>
+
+                <div class="cmd-line">
+                    <span class="prompt">user@soc:~$</span>
+                    <span class="cmd">whois d0kshy</span>
+                </div>
+                <p class="result">
+                    URL: <a href="https://github.com/d0kshy" target="_blank">github.com/daria-kurnosova</a>
+                </p>
+
+                <p id="footer-note">© 2026 Daria Kurnosova. End of Line.</p>
+            </div>
     </section>
 
     <!-- STAR BACKGROUND -->
@@ -210,6 +283,9 @@
     </div>
 
     <!-- - - - - - - - - -->
+
+    <script src="./script.js"></script>
+
 </body>
 
 </html>

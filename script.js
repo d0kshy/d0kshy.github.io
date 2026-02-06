@@ -1,0 +1,9 @@
+function updateLogTime() {
+    const now = new Date();
+    const date = now.toISOString().split('T')[0];
+    const time = now.toTimeString().split(' ')[0];
+    const fullLog = `[${date} ${time}]`;
+    document.getElementById('time-log').textContent = fullLog;
+}
+updateLogTime();
+setInterval(updateLogTime, 1000);
